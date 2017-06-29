@@ -7,4 +7,9 @@
       <button id="search-button" class="green lighten-1" v-on:click="getQuote()">Search</button>
     </div>
   </div>
+  <div class="row" v-if="quote">
+    <div class="col s12">
+      {{quote}}
+    </div>
+  </div>
 </div>
