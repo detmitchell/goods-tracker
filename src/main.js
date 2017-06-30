@@ -9,10 +9,18 @@ Vue.use(VueRouter);
 
 export var router = new VueRouter();
 
+
+var sharedData = {
+    productData: null
+}
+
 const vm = new Vue({
     el: '#app',
     components: {
         'app': AppComponent
+    },
+    data: {
+        productData: null
     },
     render: h => h('app')
 })

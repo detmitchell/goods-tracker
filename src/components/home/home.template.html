@@ -1,5 +1,10 @@
 <div id="home-container" class="row grey darken-3 center" >
-    <div id="main-search-container" class="col s6 offset-s3 center">
-      <search id="main-search" type="text"></search>
+    <div class="row">
+      <div id="main-search-container" class="col s6 offset-s3 center">
+        <search id="main-search" type="text"></search>
+      </div>
+    </div>
+    <div class="row" v-if="sharedData && sharedData.productData">
+      <results v-if="sharedData && sharedData.productData"></results>
     </div>
 </div>

@@ -1,0 +1,15 @@
+<div class="card-holder col s12">
+  <div v-for="product in sharedData.productData" class="col s4 m3">
+    <div class="card">
+      <div class="card-image">
+        <img src="/assets/images/vue-logo.png">
+        <a class="btn-floating btn-large halfway-fab waves-effect waves-light red">BUY</a>
+      </div>
+      <div class="card-content blue-grey lighten-2">
+        
+        <span class="card-title-custom">{{product.name}}</span>
+        <p>{{product.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

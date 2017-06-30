@@ -24,7 +24,9 @@
     "css-loader":"0.25.0",
     "live-server":"1.1.0",
     "vue-template-compiler":"^2.1.10",
-    "webpack":"1.13.3"
+    "webpack":"1.13.3",
+    "image-webpack-loader":"^3.3.1",
+    "file-loader":"^0.11.2"
   },
   "dependencies": {
     "vue":"2.3.4",

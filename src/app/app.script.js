@@ -8,6 +8,8 @@ export default {
     'home-component': HomeComponent
   },
   data(){
-    return {};
+    return {
+      "productData": 'No Product Data Yet'
+    }
   }
 }
